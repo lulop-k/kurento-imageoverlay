@@ -1,0 +1,30 @@
+{
+  "name": "kurento-imageoverlay",
+  "version": "6.0.0-dev",
+  "description": "ImageOverlayFilter simple example",
+  "authors": [
+    "Kurento <info@kurento.org>"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "LGPL",
+  "homepage": "http://www.kurento.org/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "adapter.js": "*",
+    "bootstrap": "~3.3.0",
+    "demo-console": "master",
+    "ekko-lightbox": "~3.2.3",
+    "kurento-client": "master",
+    "kurento-utils": "master"
+  }
+}
